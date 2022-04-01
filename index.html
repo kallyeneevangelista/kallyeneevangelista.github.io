@@ -5,7 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kallyene's Portifolio</title>    
+    <title>Kallyene's Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@100&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <style>
+        #titulo {
+            font-family: 'Merriweather', serif;
+            font-size: 50px;
+            text-align: center;
+            color: #590d22;
+            background-color: #ff758f;
+            border-radius: 4px;
+            padding: 30px 20px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            color: #800f2f;
+        }
+
+        #foto-principal {
+            border-radius: 100%;
+            width: 300px;
+        }
+
+        #profissoes {
+            font-weight: bold
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            background-color: #fff0f3;
+            text-align: center;
+            color: #590d22;
+        }
+
+        #site {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .classe-de-links-internos {
+            text-align: left;
+        }
+
+        #voltar-para-o-topo {
+            color: #590d22;
+            text-align: end;
+            background-color: #ffccd5;
+            padding: 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,16 +74,16 @@
     <h2>Portifólio</h2>
     <hr>
 
-    <img id="foto-principal" src="./IMG-20170501-WA0021.jpg" alt="Foto de Kallyene Evangelista" width="150px">
+    <img id="foto-principal" src="./fotoKallyene.png" alt="Foto de Kallyene Evangelista" width="150px">
 
     <p id="descricao">
-        Advogada
+        <p id="profissoes">Advogada <br>
+            Desenvolvedora Web
+        </p>
         <br>
-        Futura Dev
         <br>
         <br>
-        <br>
-        Acadêmica de desenvolvimento de software da <strong>Trybe</strong>.
+        A caminho de ser desenvolvedora pela <strong>Trybe</strong>.
         <br>
         Bacharela em Direito pela Universidade de Uberaba.
         <br>
@@ -35,14 +95,16 @@
     <a id="site" href="https://evangelistaadvassociados.com.br/" target="blank">Evangelista Advogados Associados</a>
     <br>
 
-    <ul>
-        <li><a href="#titulo">Acesse o título aqui.</a></li>
-        <li><a href="#descricao">Acesse a descrição aqui.</a></li>
-        <li><a href="#site">Acesse o site aqui.</a></li>
+    <ul id="links-internos">
+        <li class="classe-de-links-internos"><a href="#titulo">Acesse o título aqui.</a></li>
+        <li class="classe-de-links-internos"><a href="#descricao">Acesse a descrição aqui.</a></li>
+        <li class="classe-de-links-internos"><a href="#site">Acesse o site aqui.</a></li>
     </ul>
 
+    <hr>
+
     <br>
-    <a href="#foto-principal">Voltar para o topo</a>
+    <a id="voltar-para-o-topo" href="#foto-principal">Voltar para o topo</a>
     <br>
 
 
