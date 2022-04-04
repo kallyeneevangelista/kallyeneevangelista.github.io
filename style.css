@@ -1,0 +1,69 @@
+#titulo {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #590d22;
+    background-color: #ff758f;
+    border-radius: 4px;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #800f2f;
+}
+
+#foto-principal {
+    padding: 15px;
+    background-color: #ff758f;
+    border-radius: 100%;
+    width: 300px;
+}
+
+#profissoes {
+    font-weight: bold
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    background-color: #fff0f3;
+    text-align: center;
+    color: #590d22;
+}
+
+#site {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #ff758f;
+}
+
+ul li:nth-child(odd) {
+    background-color: pink;
+}
+
+#voltar-para-o-topo {
+    color: #590d22;
+    text-align: end;
+    background-color: #ffccd5;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#voltar-para-topo:hover {
+    background-color: #ff758f;
+}
